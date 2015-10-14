@@ -12,7 +12,7 @@
    * [dockerfile](docker_compose/dockerfile.md)
    * [docker-compose up](docker_compose/up.md)
    * [docker-compose run](docker_compose/run.md)  
-   * [docker-compose stop](docker_compose/stop.md)  
+   * [docker-compose stop](docker_compose/stop.md)
 * 建立 docker image
 * docker Hub
 * docker-compose
