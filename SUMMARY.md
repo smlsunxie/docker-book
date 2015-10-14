@@ -1,13 +1,13 @@
 # Summary
 
 * [Introduction](README.md)
-* [基本語法](basic/README.md)
-   * [docker ps](basic/docker-ps.md)
-   * [docker images](basic/docker_images.md)
-   * [docker stop](basic/docker_stop.md)
-   * [docker rm](basic/docker_rm.md)
-   * [docker rmi](basic/docker_rmi.md)
-   * [docker run](basic/docker_run.md)
+* [基本語法](command/README.md)
+   * [docker ps](command/docker-ps.md)
+   * [docker images](command/docker_images.md)
+   * [docker stop](command/docker_stop.md)
+   * [docker rm](command/docker_rm.md)
+   * [docker rmi](command/docker_rmi.md)
+   * [docker run](command/docker_run.md)
 * 建立 docker image
 * docker Hub
 * docker-compose
