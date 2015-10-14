@@ -14,7 +14,7 @@
    * [docker-compose up](compose/up.md)
    * [docker-compose run](compose/run.md)
    * [docker-compose stop](compose/stop.md)
-* [docker 使用實戰](docker_real/README.md)
+* [docker 使用實戰](docker_real/readme.md)
    * [建立 Node.js 開發環境](docker_real/nodejse_env)
    * [進行專案建置](docker_real/nodejs_build.md)
    * [進行專案測試](docker_real/nodejs_test.md)
