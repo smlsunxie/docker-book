@@ -6,7 +6,7 @@
    * [docker ps](basic/docker-ps.md)
    * [docker images](docker_images.md)
    * [docker stop](docker_stop.md)
-   * docker rm
+   * [docker rm](docker_rm.md)
    * docker rmi
    * docker run
 * 建立 docker image
