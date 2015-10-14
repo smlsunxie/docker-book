@@ -9,7 +9,7 @@
    * [docker rm](command/docker_rm.md)
    * [docker rmi](command/docker_rmi.md)
    * [docker run](command/docker_run.md)
-* [docker-compose](compose/README.md)
+* [docker-compose](compose/readme.md)
    * [docker-compose.yml](compose/docker-compose_yml.md)
    * [docker-compose up](compose/up.md)
    * [docker-compose run](compose/run.md)
