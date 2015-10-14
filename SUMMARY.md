@@ -8,6 +8,7 @@
    * [docker rm](command/docker_rm.md)
    * [docker rmi](command/docker_rmi.md)
    * [docker run](command/docker_run.md)
+* [docker-compose](docker_compose/README.md)
 * 建立 docker image
 * docker Hub
 * docker-compose
