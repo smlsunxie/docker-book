@@ -1,7 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [基本語法](command/README.md)
+
+* [基本知識](command/README.md)
+   * [dockerfile](command/dockerfile.md)
    * [docker ps](command/docker-ps.md)
    * [docker images](command/docker_images.md)
    * [docker stop](command/docker_stop.md)
