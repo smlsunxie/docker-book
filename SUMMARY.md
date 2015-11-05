@@ -17,10 +17,9 @@ Summary
 
 -	[docker-compose](compose/README.md)
 
-	-	[docker-compose.yml](compose/docker-compose_yml.md)
-	-	[docker-compose up](compose/up.md)
-	-	[docker-compose run](compose/run.md)
-	-	[docker-compose stop](compose/stop.md)
+	-	[docker-compose.yml 相關指令](compose/docker-compose_yml.md)
+	-	[run 與 up 的差別](compose/run_vs_up.md)
+	-	[新特性](compose/new_feature.md)
 
 -	[docker 使用實戰](docker_real/README.md)
 
