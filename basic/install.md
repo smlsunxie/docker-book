@@ -51,6 +51,8 @@ OSX
 
 docker-tools: https://www.docker.com/toolbox
 
+安裝 docker-tools 將會自動安裝 Docker，docker-machine，docker-compose
+
 ### 透過 docker-machine 進行連接
 
 #### 啟動 docker-machine
