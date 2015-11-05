@@ -46,8 +46,8 @@ rm machine.zip && \
 mv docker-machine* /usr/local/bin
 ```
 
-OSX
----
+OSX or Windows
+--------------
 
 docker-tools: https://www.docker.com/toolbox
 
@@ -94,6 +94,9 @@ $(docker-machine env default)
 加入 `.bashrc`
 
 又或者自行執行上述指令即可
+
+確認 docker 運作正常
+--------------------
 
 若要確認是否正常運行，可以執行下列指令：
 
