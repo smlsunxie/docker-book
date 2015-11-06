@@ -20,6 +20,7 @@ Summary
 	-	[docker-compose.yml 相關指令](compose/docker-compose_yml.md)
 	-	[run 與 up 的差別](compose/run_vs_up.md)
 	-	[新特性](compose/new_feature.md)
+	-	[將 ghost 改為使用 mysql](compose/ghost_with_mysql.md)
 
 -	[docker 使用實戰](docker_real/README.md)
 
