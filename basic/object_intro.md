@@ -14,7 +14,7 @@ docker pull ${image name}
 
 假設，我們 pull ubuntu 14.04 下來，指令如下：
 
-`docker pull ubuntu 14.04:latest`
+`docker pull ubuntu:14.04`
 
 一旦執行完以後，可以執行 `docker images` 看看有什麼資訊，呈現如下：
 
