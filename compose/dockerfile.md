@@ -23,20 +23,16 @@ web:
 ------------------------------
 
 ```
-FROM smlsunxie/picklete_env
-COPY ./ /picklete
-WORKDIR /picklete
+FROM trunk/ghost_env
+COPY ./ /ghost
+WORKDIR /ghost
 
-RUN /bin/bash -l -c 'npm i'
-RUN /bin/bash -l -c 'node_modules/.bin/grunt prod'
-
-ENV PORT "1337"
 ENV NODE_ENV "production"
-ENV DOMAIN_HOST "localhost:1337"
+ENV DOMAIN_HOST "http://localhost:2368"
 
-EXPOSE 1337
-CMD /bin/bash -l -c 'npm start'
+EXPOSE 2368
 
+CMD /bin/bash -l -c 'npm start --production'
 ```
 
 啟動 mysql
