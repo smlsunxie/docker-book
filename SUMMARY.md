@@ -9,6 +9,7 @@ Summary
 	-	[docker 相關資料的清除](basic/clean.md)
 	-	[run 與 entrypoint 的差別](basic/run_vs_entrypoint.md)
 	-	[使用 docker 指令建立 jenkins image](basic/create_jenkins_server.md)
+	-	[使用 docker hub 儲存 image](basic/docker_hub.md)
 	-	[使用 dockerfile 建立 jenkins image](basic/create_jenkins_server_dockerfile.md)
 	-	[注意事項](basic/attention.md)
 

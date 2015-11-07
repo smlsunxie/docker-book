@@ -1,6 +1,8 @@
 基本結構
 ========
 
+![](images/docker-stages.png)
+
 images
 ------
 
