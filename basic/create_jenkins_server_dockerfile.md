@@ -1,5 +1,5 @@
-install Jenkins use docker file
-===============================
+install Jenkins use dockerfile
+==============================
 
 Jnekins 安裝指令如下：
 
@@ -36,6 +36,13 @@ CMD su jenkins -c 'java -jar /usr/share/jenkins/jenkins.war'
 `EXPOSE 8080:8080`
 
 在 Dockerfile 已經不能這樣進行，所以 Dockerfile 內的 EXPOSE 適合在 `container link` 使用，之後會講到
+
+進行建置 image
+--------------
+
+```
+docker build -t jenkins_server_file .
+```
 
 運行 docker
 -----------
