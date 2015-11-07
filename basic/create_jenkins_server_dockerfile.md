@@ -41,7 +41,7 @@ CMD su jenkins -c 'java -jar /usr/share/jenkins/jenkins.war'
 --------------
 
 ```
-docker build -t jenkins_server_file .
+docker build -t yourname/jenkins .
 ```
 
 運行 docker
