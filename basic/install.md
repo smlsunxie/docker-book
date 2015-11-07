@@ -14,8 +14,9 @@ sudo apt-get install docker-engine
 ### 設定 user 可以執行 docker
 
 ```
+sudo groupadd docker
 sudo usermod -a -G docker {username}
-sudo service docker restart
+sudo service docker.io restart
 ```
 
 ### 確認安裝是否完成
@@ -25,6 +26,10 @@ docker -v
 docker ps
 docker run hello-world
 ```
+
+#### 注意事項
+
+如果還是不行，可以重開 ubuntu 再次[確認安裝是否完成]。
 
 ### docker-compose install
 

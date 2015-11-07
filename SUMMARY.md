@@ -10,6 +10,7 @@ Summary
 	-	[run 與 entrypoint 的差別](basic/run_vs_entrypoint.md)
 	-	[使用 docker 指令建立 jenkins image](basic/create_jenkins_server.md)
 	-	[使用 dockerfile 建立 jenkins image](basic/create_jenkins_server_dockerfile.md)
+	-	[注意事項](basic/attention.md)
 
 -	[docker-machine](machine/README.md)
 
@@ -21,24 +22,19 @@ Summary
 	-	[run 與 up 的差別](compose/run_vs_up.md)
 	-	[新特性](compose/new_feature.md)
 	-	[將 ghost 改為使用 mysql](compose/ghost_with_mysql.md)
+	-	[docker compose 轉換為 Dockerfile](compose/dockerfile.md)
 
 -	[docker 使用實戰](docker_real/README.md)
 
-	-	[建立 Node.js 開發環境](docker_real/nodejs_env.md)
+	-	[建立 Node.js 開發環境 image](docker_real/nodejs_env.md)
+	-	[docker-compose 設定](docker_real/docker_compose.md)
 	-	[進行專案建置](docker_real/nodejs_build.md)
 	-	[進行專案測試](docker_real/nodejs_test.md)
 	-	[進行專案運作](docker_real/nodejs_serve.md)
-
--	[docker-compose 使用實戰](compose_real/README.md)
-
-	-	[建立 Node.js 開發環境](compose_real/nodejs_env.md)
-	-	[進行專案建置](compose_real/nodejs_build.md)
-	-	[進行專案測試](compose_real/nodejs_test.md)
-	-	[進行專案運作](compose_real/nodejs_serve.md)
+	-	[建立專案 production 環境](docker_real/nodejs_prod.md)
 
 -	[搭配 Jenkins 使用 Docker 協助測試](withJenkins/README.md)
 
-	-	[install](withJenkins/install.md)
 	-	[build](withJenkins/build.md)
 	-	[test](withJenkins/test.md)
 	-	[preview](withJenkins/preview.md)

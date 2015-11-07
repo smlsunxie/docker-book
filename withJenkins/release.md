@@ -1,10 +1,8 @@
 發布專案使用 docker
--------------------
+===================
 
 建置 image
 ----------
-
-複製 task/[release](../task/release)
 
 ```
 docker build --no-cache -t trunkworkshop/nodejssample .

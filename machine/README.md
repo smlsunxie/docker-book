@@ -1,9 +1,8 @@
-https://docs.docker.com/machine/drivers/generic/
+使用 docker-machine 連結 docker engine
+======================================
 
-docker-machine create --driver virtualbox dev
-
-你的 ubuntu user 必須是 sudo 並且不能需要打 password
-----------------------------------------------------
+你的 ubuntu user 必須是 sudo 並且使用 sudo 時不需要 password
+------------------------------------------------------------
 
 若你不是用 root 帳號，可以透過下列指令，讓你的 linux user 符合條件
 
