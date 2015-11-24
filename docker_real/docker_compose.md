@@ -49,4 +49,4 @@ external_links
 
 則可以使用 external_links 在使用 docker-compose 時需要額外啟動。
 
-需要注意的是，external_links 所指定的 docker 必須在啟動目標 docker 前就啟動完畢，相關 env 將會在 container 建立時就進行載入，假若是在 contaniner 建立後才補上參數，或是啟動 container 前 external_links 所指定的 docker 尚未啟動，將無法正確使用，需要將 contaniner rm 之後再行啟動方能正常運作。
+需要注意的是，external_links 所指定的 docker 必須在啟動目標 docker 前就啟動完畢，相關 env 將會在 container 建立時就進行載入，假若是在 container 建立後才補上參數，或是啟動 container 前 external_links 所指定的 docker 尚未啟動，將無法正確使用，需要將 contaniner rm 之後再行啟動方能正常運作。
