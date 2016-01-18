@@ -21,7 +21,7 @@ yourname ALL=(ALL) NOPASSWD: ALL
 
 需要設定 port forwarding，分別是 `docker` 以及 `ssh`，如下圖
 
-![](machine/images/port_forwarding.png)
+![](./images/port_forwarding.png)
 
 建立 docker-machine
 -------------------
